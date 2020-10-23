@@ -1,11 +1,12 @@
 import 'package:flutex/component/Icon_example.dart';
+import 'package:flutex/component/column_example.dart';
 import 'package:flutex/component/row_example.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<Widget> list=[IconExample(),RowExample()];
+    List<Widget> list=[IconExample(),RowExample(),ColumnExample()];
     return Scaffold(
       appBar: AppBar(title:Text('example')),
       body: Container(child: 
