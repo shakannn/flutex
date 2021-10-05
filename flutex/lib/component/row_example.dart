@@ -5,7 +5,7 @@ class RowExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(title: Text('Row'), actions: [
+        appBar: AppBar(title: Text('Row example'), actions: [
           IconButton(
             icon: Icon(Icons.visibility),
             onPressed: () => showBottomSheet(
