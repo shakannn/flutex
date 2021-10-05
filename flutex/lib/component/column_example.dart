@@ -5,7 +5,7 @@ class ColumnExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(title: Text('Column'), actions: [
+        appBar: AppBar(title: Text('Column example'), actions: [
           IconButton(
             icon: Icon(Icons.visibility),
             onPressed: () => showBottomSheet(

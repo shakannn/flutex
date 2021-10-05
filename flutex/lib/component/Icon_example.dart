@@ -5,7 +5,7 @@ class IconExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(title: Text('Icon'), actions: [
+        appBar: AppBar(title: Text('Icon example'), actions: [
           IconButton(
             icon: Icon(Icons.visibility),
             onPressed: () => showBottomSheet(

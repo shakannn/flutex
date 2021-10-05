@@ -5,7 +5,7 @@ class StackExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-      title: Text('button example'),
+      title: Text('stack example'),
       actions: [
         IconButton(
           icon: Icon(Icons.visibility),
